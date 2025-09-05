@@ -47,12 +47,13 @@
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.445332463239!2d-46.684965325420904!3d-23.588356562583062!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce57437df287e3%3A0xb2c5a9f4121fac32!2sEdif%C3%ADcio%20Faria%20Lima%20Square!5e0!3m2!1spt-BR!2sbr!4v1756561951425!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
                 <h3>Formulário de Contato</h3>
-                <form name="contact" action="#">
-                    Nome: <input type="text" name="name" /><br>
-                    E-mail: <input type="email" name="name" /><br>
-                    Assunto: <input type="text" name="name" /><br>
-                    Mensagem: <input type="text" name="name" /><br>
+                <form name="contact" onsubmit="alert('Formulário Enviado')" autocomplete="on" target="_self" method="get" action="#">
+                    <labe>Nome: </labe><input type="text" name="name" /><br>
+                    <labe>E-mail: </labe><input type="email" name="email" /><br>
+                    <labe>Assunto: </labe><input type="text" name="assunto" /><br>
+                    <labe>Mensagem: </labe><input type="text" name="mensagem" /><br>
                     <button type="submit">Enviar</button>
+                    <button type="reset">Limpar</button>
                 </form>
             </div>
     
