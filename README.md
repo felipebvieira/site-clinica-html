@@ -33,4 +33,10 @@ Todas as páginas seguem o mesmo padrão:
 ## 🚀 Como Visualizar
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/SEU-USUARIO/nome-do-repositorio.git
+   git clone https://github.com/felipebvieira/site-clinica-html
+
+2. Acesse a pasta do projeto.
+
+3. Abra o arquivo index.html no navegador.
+
+✍️ Desenvolvido como parte do desafio prático de HTML básico.
